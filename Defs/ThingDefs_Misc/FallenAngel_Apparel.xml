@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<ThingDef ParentName="ApparelMakeableBase">
+		<defName>Pigeon_FallenAngel_ApparelA</defName>
+		<label>FallenAngel</label>
+    <description>。</description>
+    <graphicData>
+			<texPath>Things/Apparel/FallenAngel/FallenAngel</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+		</graphicData>
+    <generateCommonality>0.0001</generateCommonality>
+	  <!-- <destroyOnDrop>true</destroyOnDrop> -->
+    <smeltable>false</smeltable>
+		<costStuffCount>0</costStuffCount>
+    <useHitPoints>false</useHitPoints>
+		<tradeTags Inherit="False"/>
+    <tradeability>None</tradeability>
+    <thingCategories>
+      <li>ApparelArmor</li>
+    </thingCategories>
+    <apparel>
+      <tags>
+			  <li>Pigeon_FallenAngel</li>
+      </tags>
+			<bodyPartGroups>
+        <li>FullHead</li>
+				<li>Neck</li>
+				<li>Torso</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Legs</li>
+			</bodyPartGroups>
+      <renderSkipFlags>
+        <li>None</li>
+      </renderSkipFlags>
+			<wornGraphicPath>Things/Apparel/FallenAngel/FallenAngel</wornGraphicPath>
+			<layers>
+        <li>Middle</li>
+			</layers>
+      <canBeDesiredForIdeo>false</canBeDesiredForIdeo>
+      <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
+      <canBeGeneratedToSatisfyToxicEnvironmentResistance>false</canBeGeneratedToSatisfyToxicEnvironmentResistance>
+      <useWornGraphicMask>true</useWornGraphicMask>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>(1,1,1,1)</only>
+        </li>
+      </options>
+    </colorGenerator>
+    <recipeMaker Inherit="False" IsNull="True"/>
+    <costList Inherit="False"/>
+		<statBases>
+			<WorkToMake>25000</WorkToMake>
+			<Mass>0.5</Mass>
+			<Flammability>0</Flammability>
+			<EquipDelay>1</EquipDelay>
+      <DeteriorationRate>0</DeteriorationRate>
+      <ArmorRating_Blunt>1</ArmorRating_Blunt>
+      <ArmorRating_Sharp>1</ArmorRating_Sharp>
+      <ArmorRating_Heat>1</ArmorRating_Heat>
+		</statBases>
+		<equippedStatOffsets>
+      <IncomingDamageFactor>-0.5</IncomingDamageFactor>
+		</equippedStatOffsets>
+	</ThingDef>
+</Defs>

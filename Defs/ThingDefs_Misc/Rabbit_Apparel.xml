@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<ThingDef ParentName="ApparelMakeableBase">
+		<defName>Pigeon_Rabbit_ApparelA</defName>
+		<label>Rabbit</label>
+    <description>。</description>
+    <graphicData>
+			<texPath>Things/Apparel/Rabbit/RabbitA</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+		</graphicData>
+    <generateCommonality>0.0001</generateCommonality>
+	  <!-- <destroyOnDrop>true</destroyOnDrop> -->
+    <smeltable>false</smeltable>
+		<costStuffCount>0</costStuffCount>
+    <useHitPoints>false</useHitPoints>
+		<tradeTags Inherit="False"/>
+    <tradeability>None</tradeability>
+    <thingCategories>
+      <li>ApparelArmor</li>
+    </thingCategories>
+    <apparel>
+      <tags>
+			  <li>Pigeon_Rabbit</li>
+      </tags>
+			<bodyPartGroups>
+        <li>FullHead</li>
+				<li>Neck</li>
+				<li>Torso</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Legs</li>
+			</bodyPartGroups>
+      <renderSkipFlags>
+        <li>None</li>
+      </renderSkipFlags>
+			<wornGraphicPath>Things/Apparel/Rabbit/RabbitA</wornGraphicPath>
+			<layers>
+        <li>Middle</li>
+			</layers>
+      <canBeDesiredForIdeo>false</canBeDesiredForIdeo>
+      <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
+      <canBeGeneratedToSatisfyToxicEnvironmentResistance>false</canBeGeneratedToSatisfyToxicEnvironmentResistance>
+      <useWornGraphicMask>true</useWornGraphicMask>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>(1,1,1,1)</only>
+        </li>
+      </options>
+    </colorGenerator>
+    <recipeMaker Inherit="False" IsNull="True"/>
+    <costList Inherit="False"/>
+		<statBases>
+			<WorkToMake>25000</WorkToMake>
+			<Mass>0.5</Mass>
+			<Flammability>0</Flammability>
+			<EquipDelay>1</EquipDelay>
+      <DeteriorationRate>0</DeteriorationRate>
+      <ArmorRating_Blunt>1</ArmorRating_Blunt>
+      <ArmorRating_Sharp>1</ArmorRating_Sharp>
+      <ArmorRating_Heat>1</ArmorRating_Heat>
+		</statBases>
+		<equippedStatOffsets>
+      <IncomingDamageFactor>-0.5</IncomingDamageFactor>
+		</equippedStatOffsets>
+	</ThingDef>
+	<ThingDef ParentName="ApparelMakeableBase">
+		<defName>Pigeon_Rabbit_ApparelB</defName>
+		<label>Rabbit</label>
+    <description>。</description>
+    <graphicData>
+			<texPath>Things/Apparel/Rabbit/RabbitB</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+		</graphicData>
+    <generateCommonality>0.0001</generateCommonality>
+	  <!-- <destroyOnDrop>true</destroyOnDrop> -->
+    <smeltable>false</smeltable>
+		<costStuffCount>0</costStuffCount>
+    <useHitPoints>false</useHitPoints>
+		<tradeTags Inherit="False"/>
+    <tradeability>None</tradeability>
+    <thingCategories>
+      <li>ApparelArmor</li>
+    </thingCategories>
+    <apparel>
+      <tags>
+			  <li>Pigeon_Rabbit</li>
+      </tags>
+			<bodyPartGroups>
+        <li>FullHead</li>
+				<li>Neck</li>
+				<li>Torso</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Legs</li>
+			</bodyPartGroups>
+      <renderSkipFlags>
+        <li>None</li>
+      </renderSkipFlags>
+			<wornGraphicPath>Things/Apparel/Rabbit/RabbitB</wornGraphicPath>
+			<layers>
+        <li>Middle</li>
+			</layers>
+      <canBeDesiredForIdeo>false</canBeDesiredForIdeo>
+      <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
+      <canBeGeneratedToSatisfyToxicEnvironmentResistance>false</canBeGeneratedToSatisfyToxicEnvironmentResistance>
+      <useWornGraphicMask>true</useWornGraphicMask>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>(1,1,1,1)</only>
+        </li>
+      </options>
+    </colorGenerator>
+    <recipeMaker Inherit="False" IsNull="True"/>
+    <costList Inherit="False"/>
+		<statBases>
+			<WorkToMake>25000</WorkToMake>
+			<Mass>0.5</Mass>
+			<Flammability>0</Flammability>
+			<EquipDelay>1</EquipDelay>
+      <DeteriorationRate>0</DeteriorationRate>
+      <ArmorRating_Blunt>1</ArmorRating_Blunt>
+      <ArmorRating_Sharp>1</ArmorRating_Sharp>
+      <ArmorRating_Heat>1</ArmorRating_Heat>
+		</statBases>
+		<equippedStatOffsets>
+      <IncomingDamageFactor>-0.5</IncomingDamageFactor>
+		</equippedStatOffsets>
+	</ThingDef>
+	<ThingDef ParentName="ApparelMakeableBase">
+		<defName>Pigeon_Rabbit_Hair</defName>
+		<label>Rabbit Hair</label>
+    <description>。</description>
+    <graphicData>
+			<texPath>Things/Apparel/Rabbit/Hat/Rabbit_hat</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+		</graphicData>
+    <generateCommonality>0.0001</generateCommonality>
+	  <!-- <destroyOnDrop>true</destroyOnDrop> -->
+    <smeltable>false</smeltable>
+		<costStuffCount>0</costStuffCount>
+    <useHitPoints>false</useHitPoints>
+		<tradeTags Inherit="False"/>
+    <tradeability>None</tradeability>
+    <thingCategories>
+      <li>ApparelArmor</li>
+    </thingCategories>
+    <apparel>
+      <tags>
+			  <li>Pigeon_Rabbit</li>
+      </tags>
+      <bodyPartGroups>
+        <li>UpperHead</li>
+      </bodyPartGroups>
+      <renderSkipFlags>
+        <li>None</li>
+      </renderSkipFlags>
+			<wornGraphicPath>Things/Apparel/Rabbit/Hat/Rabbit_hat</wornGraphicPath>
+      <drawData>
+        <dataNorth>
+          <offset>(0,0,0.042)</offset>
+        </dataNorth>
+        <dataSouth>
+          <offset>(0,0,0.042)</offset>
+        </dataSouth>
+        <dataEast>
+          <offset>(0,0,0.042)</offset>
+        </dataEast>
+        <dataWest>
+          <offset>(0,0,0.042)</offset>
+        </dataWest>
+      </drawData>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+      <canBeDesiredForIdeo>false</canBeDesiredForIdeo>
+      <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
+      <canBeGeneratedToSatisfyToxicEnvironmentResistance>false</canBeGeneratedToSatisfyToxicEnvironmentResistance>
+      <useWornGraphicMask>true</useWornGraphicMask>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>(1,1,1,1)</only>
+        </li>
+      </options>
+    </colorGenerator>
+    <recipeMaker Inherit="False" IsNull="True"/>
+    <costList Inherit="False"/>
+		<statBases>
+			<WorkToMake>25000</WorkToMake>
+			<Mass>0.5</Mass>
+			<Flammability>0</Flammability>
+			<EquipDelay>1</EquipDelay>
+      <DeteriorationRate>0</DeteriorationRate>
+      <ArmorRating_Blunt>1</ArmorRating_Blunt>
+      <ArmorRating_Sharp>1</ArmorRating_Sharp>
+      <ArmorRating_Heat>1</ArmorRating_Heat>
+		</statBases>
+		<equippedStatOffsets>
+      <IncomingDamageFactor>-0.5</IncomingDamageFactor>
+		</equippedStatOffsets>
+	</ThingDef>
+</Defs>

@@ -1,0 +1,577 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <BodyPartGroupDef>
+    <defName>rabbitEar</defName>
+    <label>rabbitEar</label>
+    <listOrder>204</listOrder>
+  </BodyPartGroupDef>
+  <BodyPartGroupDef>
+    <defName>rabbitHair</defName>
+    <label>rabbitHair</label>
+    <listOrder>205</listOrder>
+  </BodyPartGroupDef>
+
+  <AlienRace.ThingDef_AlienRace ParentName="BasePawn">
+    <defName>Pigeon_RabbitOC_Race</defName>
+    <label>레티시아</label>
+    <description>.</description>
+    <alienRace>
+      <generalSettings>
+        <maleGenderProbability>0</maleGenderProbability>
+        <immuneToXenophobia>true</immuneToXenophobia>
+        <minAgeForAdulthood>18</minAgeForAdulthood>
+        <humanRecipeImport>true</humanRecipeImport>
+        <maxDamageForSocialfight>6</maxDamageForSocialfight>
+        <immuneToAge>true</immuneToAge>
+        <canLayDown>true</canLayDown>
+        <!-- 各种零件定义 -->
+        <alienPartGenerator>
+          <!-- 允许的头部 -->
+          <headTypes Inherit="False">
+            <li>Female_AverageNormal</li>
+            <!-- <li>Female_AverageWide</li>
+            <li>Female_AveragePointy</li> -->
+          </headTypes>
+          <!-- 身体类型 -->
+          <bodyTypes Inherit="False">
+            <li>Thin</li>
+          </bodyTypes>
+          <!-- 颜色设置 -->
+          <colorChannels Inherit="false">
+            <li>
+              <name>hair</name>
+              <first Class="ColorGenerator_Options">
+                <options>
+                  <li>
+                    <weight>15</weight>
+                    <min>(255,255,255)</min>
+                    <max>(255,255,255)</max>
+                  </li>
+                </options>
+              </first>
+            </li>
+            <!-- 皮肤是特殊的，因为现在由基因定义肤色 -->
+            <li>
+              <name>skin</name>
+              <first Class="AlienRace.ColorGenerator_SkinColorMelanin">
+                <minMelanin>0</minMelanin>
+                <maxMelanin>0</maxMelanin>
+              </first>
+            </li>
+          </colorChannels>
+          <headOffsetDirectional>
+            <north>
+              <offset>(0.0, -0.42)</offset>
+            </north>
+            <south>
+              <offset>(0.0, -0.42)</offset>
+            </south>
+            <east>
+              <offset>(-0.1, -0.42)</offset>
+            </east>
+            <west>
+              <offset>(0.1, -0.42)</offset>
+            </west>
+          </headOffsetDirectional>
+        <bodyAddons>
+          <li>
+            <path>Things/Body/Rabbit/RabbitEar</path>
+            <conditions>
+              <BodyPart>
+                <bodyPart>Head</bodyPart>
+              </BodyPart>
+              <Apparel>
+                <hiddenUnderApparelFor>
+                  <li>rabbitEar</li>
+                </hiddenUnderApparelFor>
+              </Apparel>
+              <Posture>
+                <drawnStanding>true</drawnStanding>
+                <drawnLaying>true</drawnLaying>
+                <drawnInBed>true</drawnInBed>
+              </Posture>
+            </conditions>
+            <inFrontOfBody>false</inFrontOfBody>
+            <layerInvert>false</layerInvert>
+            <colorChannel>hair</colorChannel>
+            <shaderType>Cutout</shaderType>
+            <scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+            <alignWithHead>true</alignWithHead>
+            <angle>0</angle>
+            <offsets>
+              <north>
+                <layerOffset>-0.326</layerOffset>
+                <offset>(0,0.08)</offset>
+              </north>
+              <south>
+                <layerOffset>-0.326</layerOffset>
+                <offset>(0,0.08)</offset>
+              </south>
+              <east>
+                <layerOffset>-0.6</layerOffset>
+                <offset>(0,0.08)</offset>
+              </east>
+            </offsets>
+          </li>
+
+          <li>
+            <path>Things/Hair/Rabbit_Hair</path>
+            <conditions>
+              <BodyPart>
+                <bodyPart>Head</bodyPart>
+              </BodyPart>
+              <Apparel>
+                <hiddenUnderApparelFor>
+                  <li>rabbitHair</li>
+                </hiddenUnderApparelFor>
+              </Apparel>
+              <Posture>
+                <drawnStanding>true</drawnStanding>
+                <drawnLaying>true</drawnLaying>
+                <drawnInBed>true</drawnInBed>
+              </Posture>
+            </conditions>
+            <inFrontOfBody>false</inFrontOfBody>
+            <layerInvert>false</layerInvert>
+            <colorChannel>hair</colorChannel>
+            <shaderType>Cutout</shaderType>
+            <scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+            <alignWithHead>true</alignWithHead>
+            <angle>0</angle>
+            <offsets>
+              <north>
+                <layerOffset>-0.326</layerOffset>
+                <offset>(0,0.08)</offset>
+              </north>
+              <south>
+                <layerOffset>-0.326</layerOffset>
+                <offset>(0,0.08)</offset>
+              </south>
+              <east>
+                <layerOffset>-0.326</layerOffset>
+                <offset>(0,0.08)</offset>
+              </east>
+            </offsets>
+          </li>
+
+          <li>
+            <path>Things/Hair/Rabbit_Hair_behind/Rabbit_Hair_behind</path>
+            <conditions>
+              <BodyPart>
+                <bodyPart>Head</bodyPart>
+              </BodyPart>
+              <Apparel>
+                <hiddenUnderApparelFor>
+                  <li>rabbitHair</li>
+                </hiddenUnderApparelFor>
+              </Apparel>
+              <Posture>
+                <drawnStanding>true</drawnStanding>
+                <drawnLaying>true</drawnLaying>
+                <drawnInBed>true</drawnInBed>
+              </Posture>
+            </conditions>
+            <inFrontOfBody>false</inFrontOfBody>
+            <layerInvert>false</layerInvert>
+            <linkVariantIndexWithPrevious>true</linkVariantIndexWithPrevious>
+            <colorChannel>hair</colorChannel>
+            <shaderType>Cutout</shaderType>
+            <scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+            <alignWithHead>true</alignWithHead>
+            <angle>0</angle>
+            <offsets>
+              <north>
+                <layerOffset>0.3</layerOffset>
+                <offset>(0,0.08)</offset>
+              </north>
+              <south>
+                <layerOffset>-0.3</layerOffset>
+                <offset>(0,0.08)</offset>
+              </south>
+              <east>
+                <layerOffset>1</layerOffset>
+                <offset>(0,0.08)</offset>
+              </east>
+              <west>
+                <layerOffset>1</layerOffset>
+                <offset>(0,0.08)</offset>
+              </west>
+            </offsets>
+          </li>
+        </bodyAddons>
+        </alienPartGenerator>
+        <growthAges>
+          <li>3</li>
+          <li>7</li>
+          <li>13</li>
+          <li>18</li>
+        </growthAges>
+        <!-- 年龄工作效率等的覆盖 -->
+        <ageStatOverrides>
+          <WorkSpeedGlobal>
+            <useBiologicalYears>true</useBiologicalYears>
+            <curve>
+              <points>
+                <li>(0,1)</li>
+              </points>
+            </curve>
+          </WorkSpeedGlobal>
+          <ShootingAccuracyChildFactor MayRequire="Ludeon.RimWorld.Biotech">
+            <useBiologicalYears>true</useBiologicalYears>
+            <curve>
+              <points>
+                <li>(0,1)</li>
+              </points>
+            </curve>
+          </ShootingAccuracyChildFactor>
+          <MarketValue>
+            <useBiologicalYears>true</useBiologicalYears>
+            <curve>
+              <points>
+                <li>(0,1)</li>
+              </points>
+            </curve>
+          </MarketValue>
+          <MeleeHitChance>
+            <useBiologicalYears>true</useBiologicalYears>
+            <curve>
+              <points>
+                <li>(0,1)</li>
+              </points>
+            </curve>
+          </MeleeHitChance>
+          <AimingDelayFactor>
+            <useBiologicalYears>true</useBiologicalYears>
+            <curve>
+              <points>
+                <li>(0,1)</li>
+              </points>
+            </curve>
+          </AimingDelayFactor>
+          <ArrestSuccessChance>
+            <useBiologicalYears>true</useBiologicalYears>
+            <curve>
+              <points>
+                <li>(0, 1)</li>
+              </points>
+            </curve>
+          </ArrestSuccessChance>
+        </ageStatOverrides>
+        <!-- 生育设置，将妊娠设为男性来避免开局刷妊娠 -->
+        <reproduction>
+          <gestatingGender>Male</gestatingGender>
+          <femaleFertilityAgeFactor>
+            <points>
+              <li>(0,0)</li>
+              <li>(1,0)</li>
+              <li>(999,0)</li>
+              <li>(9999,0)</li>
+            </points>
+          </femaleFertilityAgeFactor>
+        </reproduction>
+        <growthFactorByAge>
+          <points>
+            <li>(0,1)</li>
+            <li>(12,0.5)</li>
+          </points>
+        </growthFactorByAge>
+      </generalSettings>
+      <!-- 图形，留空 -->
+      <graphicPaths>
+        <!-- 皮肤颜色 -->
+        <skinColor>(1,1,1,1)</skinColor>
+        <!-- 皮肤着色器 -->
+        <skinShader>Cutout</skinShader>
+        <body>Things/Body/OC_Body_Thin/Body_Thin</body>
+        <head>
+          <path>Things/Head/Rabbit/</path>
+        </head>
+        <skeleton>Things/Pawn/Humanlike/Bodies/Dessicated/Dessicated_Thin</skeleton>
+      </graphicPaths>
+      <!-- 风格设置 -->
+      <styleSettings>
+        <!-- 头发 -->
+        <li>
+          <key>HairDef</key>
+          <value>
+            <hasStyle>false</hasStyle>
+          </value>
+        </li>
+        <!-- 纹身 -->
+        <li>
+          <key>TattooDef</key>
+          <value>
+            <hasStyle>false</hasStyle>
+          </value>
+        </li>
+        <!-- 胡须 -->
+        <li>
+          <key>BeardDef</key>
+          <value>
+            <hasStyle>false</hasStyle>
+          </value>
+        </li>
+      </styleSettings>
+      <!-- 种族的允许和禁止特化设置 -->
+      <raceRestriction>
+        <!-- 无法拥有的内源性基因 -->
+        <blackEndoCategories MayRequire="Ludeon.RimWorld.Biotech">
+          <li MayRequire="Ludeon.RimWorld.Biotech">HairColor</li>
+          <li MayRequire="Ludeon.RimWorld.Biotech">Melanin</li>
+          <li MayRequire="Ludeon.RimWorld.Biotech">BodyType</li>
+          <li MayRequire="Ludeon.RimWorld.Biotech">Ears</li>
+          <li MayRequire="Ludeon.RimWorld.Biotech">Nose</li>
+          <li MayRequire="Ludeon.RimWorld.Biotech">Voice</li>
+          <li MayRequire="Ludeon.RimWorld.Biotech">Headbone</li>
+          <li MayRequire="Ludeon.RimWorld.Biotech">Head</li>
+          <li MayRequire="Ludeon.RimWorld.Biotech">Jaw</li>
+        </blackEndoCategories>
+        <!-- 无法拥有的Tag基因 -->
+        <blackGeneTags MayRequire="Ludeon.RimWorld.Biotech">
+          <li MayRequire="Ludeon.RimWorld.Biotech">EyeColor</li>
+          <li MayRequire="Ludeon.RimWorld.Biotech">Tail</li>
+          <li MayRequire="Ludeon.RimWorld.Biotech">BeardStyle</li>
+          <li MayRequire="Ludeon.RimWorld.Biotech">Fur</li>
+        </blackGeneTags>
+        <!-- 无法拥有的基因列表 -->
+        <blackGeneList>
+          <li MayRequire="Ludeon.RimWorld.Biotech">Furskin</li>
+          <li MayRequire="Ludeon.RimWorld.Biotech">Brow_Heavy</li>
+        </blackGeneList>
+        <!-- 禁止的异形变种 -->
+        <blackXenotypeList>
+          <li MayRequire="Ludeon.RimWorld.Biotech">Dirtmole</li>
+          <li MayRequire="Ludeon.RimWorld.Biotech">Genie</li>
+          <li MayRequire="Ludeon.RimWorld.Biotech">Hussar</li>
+          <li MayRequire="Ludeon.RimWorld.Biotech">Sanguophage</li>
+          <li MayRequire="Ludeon.RimWorld.Biotech">Neanderthal</li>
+          <li MayRequire="Ludeon.RimWorld.Biotech">Pigskin</li>
+          <li MayRequire="Ludeon.RimWorld.Biotech">Impid</li>
+          <li MayRequire="Ludeon.RimWorld.Biotech">Waster</li>
+          <li MayRequire="Ludeon.RimWorld.Biotech">Yttakin</li>
+          <li MayRequire="Ludeon.RimWorld.Biotech">Highmate</li>
+        </blackXenotypeList>
+        <!-- 允许的异形类型 -->
+        <whiteXenotypeList MayRequire="Ludeon.RimWorld.Biotech">
+          <li MayRequire="Ludeon.RimWorld.Biotech">Baseliner</li>
+        </whiteXenotypeList>
+        <onlyUseRaceRestrictedXenotypes>false</onlyUseRaceRestrictedXenotypes>
+        <!-- 武器列表 -->
+        <weaponList>
+        </weaponList>
+        <onlyUseRaceRestrictedWeapons>false</onlyUseRaceRestrictedWeapons>
+        <!-- 可以穿戴的衣服 -->
+        <apparelList>
+        </apparelList>
+        <blackApparelList>
+          <li>Apparel_AdvancedHelmet</li>
+          <li>Apparel_ArmorHelmetRecon</li>
+          <li>Apparel_BowlerHat</li>
+          <li>Apparel_CowboyHat</li>
+          <li>Apparel_HatHood</li>
+          <li>Apparel_PowerArmorHelmet</li>
+          <li>Apparel_PsychicFoilHelmet</li>
+          <li>Apparel_SimpleHelmet</li>
+          <li>Apparel_TribalHeaddress</li>
+          <li>Apparel_Tuque</li>
+          <li>Apparel_WarMask</li>
+          <li>Apparel_WarVeil</li>
+          <li>Apparel_ArmorRecon</li>
+          <li>Apparel_BasicShirt</li>
+          <li>Apparel_Cape</li>
+          <li>Apparel_CollarShirt</li>
+          <li>Apparel_Duster</li>
+          <li>Apparel_FlakJacket</li>
+          <li>Apparel_FlakPants</li>
+          <li>Apparel_FlakVest</li>
+          <li>Apparel_Jacket</li>
+          <li>Apparel_Pants</li>
+          <li>Apparel_Parka</li>
+          <li>Apparel_PlateArmor</li>
+          <li>Apparel_PowerArmor</li>
+          <li>Apparel_Robe</li>
+          <li>Apparel_TribalA</li>
+          <li>Apparel_Sash</li>
+          <li>Apparel_Bandolier</li>
+          <li>Apparel_Broadwrap</li>
+          <li>Apparel_Headwrap</li>
+          <li>Apparel_Shadecone</li>
+          <li>Apparel_AuthorityCap</li>
+          <li>Apparel_Flophat</li>
+          <li>Apparel_Slicecap</li>
+          <li>Apparel_Tailcap</li>
+          <li>Apparel_VisageMask</li>
+        </blackApparelList>
+        <onlyUseRaceRestrictedApparel>false</onlyUseRaceRestrictedApparel>
+      </raceRestriction>
+      <!-- 关系设置，不会生成任何随机关系 -->
+      <relationSettings>
+        <relationChanceModifierLover>0</relationChanceModifierLover>
+        <relationChanceModifierExLover>0</relationChanceModifierExLover>
+
+        <relationChanceModifierFiance>0</relationChanceModifierFiance>
+        <relationChanceModifierSpouse>0</relationChanceModifierSpouse>
+        <relationChanceModifierExSpouse>0</relationChanceModifierExSpouse>
+
+        <relationChanceModifierParent>0</relationChanceModifierParent>
+        <relationChanceModifierChild>0</relationChanceModifierChild>
+        <relationChanceModifierSibling>0</relationChanceModifierSibling>
+      </relationSettings>
+    </alienRace>
+
+    <!-- 基础属性设置 -->
+    <statBases>
+      <FlightCooldown>0</FlightCooldown>
+
+      <ComfyTemperatureMin>-30</ComfyTemperatureMin>
+      <ComfyTemperatureMax>9999</ComfyTemperatureMax>
+
+      <EatingSpeed>5</EatingSpeed>
+      <MoveSpeed>3.5</MoveSpeed>
+      <MaxNutrition>2</MaxNutrition>
+
+      <VacuumResistance MayRequire="Ludeon.RimWorld.Odyssey">1</VacuumResistance>
+      <ToxicResistance>1</ToxicResistance>
+      <ToxicEnvironmentResistance MayRequire="Ludeon.RimWorld.Biotech">1</ToxicEnvironmentResistance>
+
+      <MarketValue>10000</MarketValue>
+
+      <PainShockThreshold>0.99</PainShockThreshold>
+      <PsychicSensitivity>1.5</PsychicSensitivity>
+      <MentalBreakThreshold>0.5</MentalBreakThreshold>
+      <Flammability>0</Flammability>
+      <FlightCooldown>0</FlightCooldown>
+
+      <ArmorRating_Blunt>1</ArmorRating_Blunt>
+      <ArmorRating_Sharp>1</ArmorRating_Sharp>
+      <ArmorRating_Heat>0.25</ArmorRating_Heat>
+    </statBases>
+
+    <race>
+      <thinkTreeMain>Humanlike</thinkTreeMain>
+      <thinkTreeConstant>HumanlikeConstant</thinkTreeConstant>
+      <renderTree>Humanlike</renderTree>
+      <intelligence>Humanlike</intelligence>
+      <makesFootprints>true</makesFootprints>
+      <lifeExpectancy>120</lifeExpectancy>
+      <leatherDef>Leather_Human</leatherDef>
+      <nameCategory>HumanStandard</nameCategory>
+      <body>Human</body>
+      <baseBodySize>1</baseBodySize>
+      <baseHealthScale>1</baseHealthScale>
+      <foodType>OmnivoreHuman</foodType>
+      <gestationPeriodDays>45</gestationPeriodDays>
+      <meatMarketValue>0.8</meatMarketValue>
+      <baseHungerRate>0.8</baseHungerRate>
+      <bloodDef>Filth_Blood</bloodDef>
+      <bloodSmearDef>Filth_BloodSmear</bloodSmearDef>
+      <lifeStageWorkSettings MayRequire="Ludeon.RimWorld.Biotech">
+        <Firefighter>0</Firefighter>
+        <Patient>0</Patient>
+        <Doctor>0</Doctor>
+        <PatientBedRest>0</PatientBedRest>
+        <Childcare MayRequire="Ludeon.RimWorld.Biotech">0</Childcare>
+        <BasicWorker>0</BasicWorker>
+        <Warden>0</Warden>
+        <Handling>0</Handling>
+        <Cooking>0</Cooking>
+        <Hunting>0</Hunting>
+        <Construction>0</Construction>
+        <Growing>0</Growing>
+        <Mining>0</Mining>
+        <PlantCutting>0</PlantCutting>
+        <Smithing>0</Smithing>
+        <Tailoring>0</Tailoring>
+        <Art>0</Art>
+        <Crafting>0</Crafting>
+        <Hauling>0</Hauling>
+        <Cleaning>0</Cleaning>
+        <Research>0</Research>
+        <DarkStudy MayRequire="Ludeon.RimWorld.Anomaly">0</DarkStudy>
+      </lifeStageWorkSettings>
+      <lifeStageAges Inherit="False">
+        <li>
+          <def>HumanlikeBaby</def>
+          <minAge>0</minAge>
+        </li>
+        <li>
+          <def>HumanlikeChild</def>
+          <minAge>3</minAge>
+        </li>
+        <li MayRequire="Ludeon.RimWorld.Biotech">
+          <def>HumanlikePreTeenager</def>
+          <minAge>7</minAge>
+        </li>
+        <li>
+          <def>HumanlikeTeenager</def>
+          <minAge>13</minAge>
+        </li>
+        <li>
+          <def>HumanlikeAdult</def>
+          <minAge>18</minAge>
+        </li>
+      </lifeStageAges>
+      <ageGenerationCurve Inherit="False" IsNull="True"/>
+    </race>
+
+    <tools>
+      <li>
+        <label>left fist</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>1.6</cooldownTime>
+        <linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>16</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+      <li>
+        <label>right fist</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>1.6</cooldownTime>
+        <linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>16</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+      <li>
+        <label>teeth</label>
+        <capacities>
+          <li>Bite</li>
+        </capacities>
+        <power>12</power>
+        <cooldownTime>1.6</cooldownTime>
+        <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+        <chanceFactor>0.4</chanceFactor>
+      </li>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>1.4</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+        <chanceFactor>0.1</chanceFactor>
+      </li>
+    </tools>
+  </AlienRace.ThingDef_AlienRace>
+
+</Defs>
