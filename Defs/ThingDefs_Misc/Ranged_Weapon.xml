@@ -11,8 +11,7 @@
     <soundInteract>Interact_SMG</soundInteract>
     <techLevel>Spacer</techLevel>
     <weaponTags>
-      <li>Rifile</li>
-      <li>PinBalisticWeapon</li>
+      <li>PigeonOC_RabbitWeapon</li>
     </weaponTags>
     <statBases>
       <WorkToMake>680</WorkToMake>
@@ -33,7 +32,7 @@
         <soundCast>PigeonOC_RabbitWeapon_Shot</soundCast>
         <soundCastTail>GunTail_Light</soundCastTail>
         <muzzleFlashScale>14</muzzleFlashScale>
-        <burstShotCount>3</burstShotCount>
+        <burstShotCount>1</burstShotCount>
         <ticksBetweenBurstShots>9</ticksBetweenBurstShots>
       </li>
     </verbs>
@@ -52,21 +51,13 @@
     </costList>
     <tools>
       <li>
-        <label>grip</label>
+        <label>head</label>
+        <labelUsedInLogging>false</labelUsedInLogging>
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>9.3</power>
-        <cooldownTime>2</cooldownTime>
-      </li>
-      <li>
-        <label>barrel</label>
-        <capacities>
-          <li>Blunt</li>
-          <li>Poke</li>
-        </capacities>
-        <power>9.3</power>
-        <cooldownTime>2</cooldownTime>
+        <power>12</power>
+        <cooldownTime>1.6</cooldownTime>
       </li>
     </tools>
   </ThingDef>
@@ -79,10 +70,10 @@
     </graphicData>
     <projectile>
       <damageDef>Bullet</damageDef>
-      <damageAmountBase>16</damageAmountBase>
-      <armorPenetrationBase>0.16</armorPenetrationBase>
+      <damageAmountBase>45</damageAmountBase>
+      <armorPenetrationBase>0.8</armorPenetrationBase>
       <stoppingPower>0.8</stoppingPower>
-      <speed>60</speed>
+      <speed>40</speed>
     </projectile>
   </ThingDef>
 
@@ -97,8 +88,7 @@
     <soundInteract>Interact_SMG</soundInteract>
     <techLevel>Spacer</techLevel>
     <weaponTags>
-      <li>Rifile</li>
-      <li>PinBalisticWeapon</li>
+      <li>PigeonOC_FallenAngelWeapon</li>
     </weaponTags>
     <statBases>
       <WorkToMake>680</WorkToMake>
@@ -107,19 +97,19 @@
       <AccuracyShort>0.70</AccuracyShort>
       <AccuracyMedium>0.40</AccuracyMedium>
       <AccuracyLong>0.30</AccuracyLong>
-      <RangedWeapon_Cooldown>1.5</RangedWeapon_Cooldown>
+      <RangedWeapon_Cooldown>1.1</RangedWeapon_Cooldown>
     </statBases>
     <verbs>
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>PigeonOCFallenAngelBullet</defaultProjectile>
-        <warmupTime>1.2</warmupTime>
-        <range>25</range>
-        <soundCast>Shot_shotgun</soundCast>
+        <warmupTime>1.0</warmupTime>
+        <range>22</range>
+        <soundCast>PigeonOC_FallenAngelWeapon_Shot</soundCast>
         <soundCastTail>GunTail_Light</soundCastTail>
         <muzzleFlashScale>14</muzzleFlashScale>
-        <burstShotCount>3</burstShotCount>
+        <burstShotCount>1</burstShotCount>
         <ticksBetweenBurstShots>9</ticksBetweenBurstShots>
       </li>
     </verbs>
@@ -138,21 +128,22 @@
     </costList>
     <tools>
       <li>
-        <label>grip</label>
-        <capacities>
-          <li>Blunt</li>
-        </capacities>
-        <power>9.3</power>
-        <cooldownTime>2</cooldownTime>
-      </li>
-      <li>
-        <label>barrel</label>
+        <label>shaft</label>
         <capacities>
           <li>Blunt</li>
           <li>Poke</li>
         </capacities>
-        <power>9.3</power>
-        <cooldownTime>2</cooldownTime>
+        <power>26</power>
+        <cooldownTime>1.6</cooldownTime>
+      </li>
+      <li>
+        <label>point</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>46</power>
+        <armorPenetration>0.50</armorPenetration>
+        <cooldownTime>1.6</cooldownTime>
       </li>
     </tools>
   </ThingDef>
@@ -165,10 +156,10 @@
     </graphicData>
     <projectile>
       <damageDef>Bullet</damageDef>
-      <damageAmountBase>16</damageAmountBase>
-      <armorPenetrationBase>0.16</armorPenetrationBase>
-      <stoppingPower>0.8</stoppingPower>
-      <speed>60</speed>
+      <damageAmountBase>46</damageAmountBase>
+      <armorPenetrationBase>0.8</armorPenetrationBase>
+      <stoppingPower>3.8</stoppingPower>
+      <speed>26</speed>
     </projectile>
   </ThingDef>
 </Defs>

@@ -18,4 +18,21 @@
     </subSounds>
   </SoundDef>
 
+ <SoundDef>
+    <defName>PigeonOC_FallenAngelWeapon_Shot</defName>
+    <context>MapOnly</context>
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/PigeonOC_FallenAngelWeapon_Shot</clipPath>
+          </li>
+        </grains>
+        <volumeRange>205~245</volumeRange>
+        <pitchRange>1.1~1.15</pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+
 </Defs>

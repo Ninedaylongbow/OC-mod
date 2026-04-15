@@ -19,7 +19,7 @@
 
   <AlienRace.ThingDef_AlienRace ParentName="BasePawn">
     <defName>Pigeon_FallenAngelOC_Race</defName>
-    <label>레티시아</label>
+    <label>소라</label>
     <description>.</description>
     <alienRace>
       <generalSettings>
@@ -67,16 +67,16 @@
           </colorChannels>
           <headOffsetDirectional>
             <north>
-              <offset>(0.0, -0.35)</offset>
+              <offset>(0.0, -0.335)</offset>
             </north>
             <south>
-              <offset>(0.0, -0.35)</offset>
+              <offset>(0.0, -0.335)</offset>
             </south>
             <east>
-              <offset>(-0.1, -0.35)</offset>
+              <offset>(-0.1, -0.335)</offset>
             </east>
             <west>
-              <offset>(0.1, -0.35)</offset>
+              <offset>(0.1, -0.335)</offset>
             </west>
           </headOffsetDirectional>
         <bodyAddons>

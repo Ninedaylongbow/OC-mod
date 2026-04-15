@@ -9,12 +9,19 @@
     <defName>PigeonOCSuccubus</defName>
     <label>레티시아</label>
     <defaultFactionType>PlayerColony</defaultFactionType>
+		<backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>Pigeon_SuccubusOC_BackStroy</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
     <apparelTags>
       <li>IndustrialBasic</li>
     </apparelTags>
     <apparelRequired>
       <li>Pigeon_Succubus_Apparel</li>
-      <li>Pigeon_Succubus_Hair</li>
+      <li>Pigeon_Succubus_Hat</li>
     </apparelRequired>
     <minGenerationAge>18</minGenerationAge>
     <maxGenerationAge>35</maxGenerationAge>
@@ -34,8 +41,8 @@
     <rulePack>
       <rulesStrings>
         <li>r_name->[Pigeon_SuccubusOC_Race_FirstName]</li>
-        <li>Pigeon_SuccubusOC_Race_nickName->카네리아</li>
-        <li>Pigeon_SuccubusOC_Race_FirstName->카네리아</li>
+        <li>Pigeon_SuccubusOC_Race_nickName->레티시아</li>
+        <li>Pigeon_SuccubusOC_Race_FirstName->레티시아</li>
       </rulesStrings>
     </rulePack>
   </RulePackDef>
@@ -49,13 +56,23 @@
     <defName>PigeonOCRabbit</defName>
     <label>카네리아</label>
     <defaultFactionType>PlayerColony</defaultFactionType>
+		<backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>Pigeon_RabbitOC_BackStroy</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
     <apparelTags>
       <li>IndustrialBasic</li>
     </apparelTags>
     <apparelRequired>
       <li>Pigeon_Rabbit_ApparelA</li>
-      <li>Pigeon_Rabbit_Hair</li>
+      <li>Pigeon_Rabbit_Hat</li>
     </apparelRequired>
+    <weaponTags>
+      <li>PigeonOC_RabbitWeapon</li>
+    </weaponTags>
     <minGenerationAge>18</minGenerationAge>
     <maxGenerationAge>35</maxGenerationAge>
     <nameMaker>Pigeon_RabbitOC_Race_NameMaker</nameMaker>
@@ -64,6 +81,7 @@
       <min>800000</min>
       <max>1200000</max>
     </apparelMoney>
+    <weaponMoney>65000~75000</weaponMoney>
     <backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
     <initialWillRange>1~3</initialWillRange>
     <initialResistanceRange>13~21</initialResistanceRange>
@@ -74,8 +92,8 @@
     <rulePack>
       <rulesStrings>
         <li>r_name->[Pigeon_RabbitOC_Race_FirstName]</li>
-        <li>Pigeon_RabbitOC_Race_nickName->레티시아</li>
-        <li>Pigeon_RabbitOC_Race_FirstName->레티시아</li>
+        <li>Pigeon_RabbitOC_Race_nickName->카네리아</li>
+        <li>Pigeon_RabbitOC_Race_FirstName->카네리아</li>
       </rulesStrings>
     </rulePack>
   </RulePackDef>
@@ -90,12 +108,22 @@
     <label>소라</label>
     <fixedGender>Male</fixedGender>
     <defaultFactionType>PlayerColony</defaultFactionType>
+		<backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>Pigeon_FallenAngelOC_BackStroy</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
     <apparelTags>
       <li>IndustrialBasic</li>
     </apparelTags>
     <apparelRequired>
       <li>Pigeon_FallenAngel_Apparel</li>
     </apparelRequired>
+    <weaponTags>
+      <li>PigeonOC_FallenAngelWeapon</li>
+    </weaponTags>
     <minGenerationAge>18</minGenerationAge>
     <maxGenerationAge>35</maxGenerationAge>
     <nameMaker>Pigeon_FallenAngelOC_Race_NameMaker</nameMaker>
@@ -104,6 +132,7 @@
       <min>800000</min>
       <max>1200000</max>
     </apparelMoney>
+    <weaponMoney>65000~75000</weaponMoney>
     <backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
     <initialWillRange>1~3</initialWillRange>
     <initialResistanceRange>13~21</initialResistanceRange>

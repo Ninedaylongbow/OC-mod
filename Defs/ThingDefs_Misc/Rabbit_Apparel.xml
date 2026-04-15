@@ -59,12 +59,15 @@
 			<Flammability>0</Flammability>
 			<EquipDelay>1</EquipDelay>
       <DeteriorationRate>0</DeteriorationRate>
-      <ArmorRating_Blunt>1</ArmorRating_Blunt>
-      <ArmorRating_Sharp>1</ArmorRating_Sharp>
-      <ArmorRating_Heat>1</ArmorRating_Heat>
+      <ArmorRating_Sharp>1.06</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.45</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.54</ArmorRating_Heat>
+      <Insulation_Cold>68</Insulation_Cold>
+      <Insulation_Heat>10</Insulation_Heat>
 		</statBases>
 		<equippedStatOffsets>
-      <IncomingDamageFactor>-0.5</IncomingDamageFactor>
+      <SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">-0.3</SlaveSuppressionOffset>
+      <VacuumResistance MayRequire="Ludeon.RimWorld.Odyssey">1</VacuumResistance>
 		</equippedStatOffsets>
 	</ThingDef>
 	<ThingDef ParentName="ApparelMakeableBase">
@@ -126,16 +129,19 @@
 			<Flammability>0</Flammability>
 			<EquipDelay>1</EquipDelay>
       <DeteriorationRate>0</DeteriorationRate>
-      <ArmorRating_Blunt>1</ArmorRating_Blunt>
-      <ArmorRating_Sharp>1</ArmorRating_Sharp>
-      <ArmorRating_Heat>1</ArmorRating_Heat>
+      <ArmorRating_Sharp>1.06</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.45</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.54</ArmorRating_Heat>
+      <Insulation_Cold>68</Insulation_Cold>
+      <Insulation_Heat>10</Insulation_Heat>
 		</statBases>
 		<equippedStatOffsets>
-      <IncomingDamageFactor>-0.5</IncomingDamageFactor>
+      <SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">-0.3</SlaveSuppressionOffset>
+      <VacuumResistance MayRequire="Ludeon.RimWorld.Odyssey">1</VacuumResistance>
 		</equippedStatOffsets>
 	</ThingDef>
 	<ThingDef ParentName="ApparelMakeableBase">
-		<defName>Pigeon_Rabbit_Hair</defName>
+		<defName>Pigeon_Rabbit_Hat</defName>
 		<label>마법사 모자</label>
     <description>이런 모자가 어울리는 사람은\n\n단 한명이야!</description>
     <graphicData>
@@ -191,12 +197,11 @@
 			<Flammability>0</Flammability>
 			<EquipDelay>1</EquipDelay>
       <DeteriorationRate>0</DeteriorationRate>
-      <ArmorRating_Blunt>1</ArmorRating_Blunt>
-      <ArmorRating_Sharp>1</ArmorRating_Sharp>
-      <ArmorRating_Heat>1</ArmorRating_Heat>
+      <ArmorRating_Sharp>1.2</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.5</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.6</ArmorRating_Heat>
+      <Insulation_Cold>4</Insulation_Cold>
+      <Insulation_Heat>2</Insulation_Heat>
 		</statBases>
-		<equippedStatOffsets>
-      <IncomingDamageFactor>-0.5</IncomingDamageFactor>
-		</equippedStatOffsets>
 	</ThingDef>
 </Defs>

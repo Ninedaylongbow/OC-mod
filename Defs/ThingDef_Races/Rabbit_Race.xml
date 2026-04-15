@@ -14,7 +14,7 @@
 
   <AlienRace.ThingDef_AlienRace ParentName="BasePawn">
     <defName>Pigeon_RabbitOC_Race</defName>
-    <label>레티시아</label>
+    <label>카네리아</label>
     <description>.</description>
     <alienRace>
       <generalSettings>
