@@ -62,16 +62,16 @@
           </colorChannels>
           <headOffsetDirectional>
             <north>
-              <offset>(0.0, -0.42)</offset>
+              <offset>(0.0, -0.335)</offset>
             </north>
             <south>
-              <offset>(0.0, -0.42)</offset>
+              <offset>(0.0, -0.335)</offset>
             </south>
             <east>
-              <offset>(-0.1, -0.42)</offset>
+              <offset>(-0.1, -0.335)</offset>
             </east>
             <west>
-              <offset>(0.1, -0.42)</offset>
+              <offset>(0.1, -0.335)</offset>
             </west>
           </headOffsetDirectional>
         <bodyAddons>
@@ -102,15 +102,15 @@
             <offsets>
               <north>
                 <layerOffset>-0.326</layerOffset>
-                <offset>(0,0.08)</offset>
+                <offset>(0,0)</offset>
               </north>
               <south>
                 <layerOffset>-0.326</layerOffset>
-                <offset>(0,0.08)</offset>
+                <offset>(0,0)</offset>
               </south>
               <east>
                 <layerOffset>-0.6</layerOffset>
-                <offset>(0,0.08)</offset>
+                <offset>(0,0)</offset>
               </east>
             </offsets>
           </li>
@@ -142,15 +142,15 @@
             <offsets>
               <north>
                 <layerOffset>-0.326</layerOffset>
-                <offset>(0,0.08)</offset>
+                <offset>(0,0)</offset>
               </north>
               <south>
                 <layerOffset>-0.326</layerOffset>
-                <offset>(0,0.08)</offset>
+                <offset>(0,0)</offset>
               </south>
               <east>
                 <layerOffset>-0.326</layerOffset>
-                <offset>(0,0.08)</offset>
+                <offset>(0,0)</offset>
               </east>
             </offsets>
           </li>
@@ -183,19 +183,19 @@
             <offsets>
               <north>
                 <layerOffset>0.3</layerOffset>
-                <offset>(0,0.08)</offset>
+                <offset>(0,0)</offset>
               </north>
               <south>
                 <layerOffset>-0.3</layerOffset>
-                <offset>(0,0.08)</offset>
+                <offset>(0,0)</offset>
               </south>
               <east>
                 <layerOffset>1</layerOffset>
-                <offset>(0,0.08)</offset>
+                <offset>(0,0)</offset>
               </east>
               <west>
                 <layerOffset>1</layerOffset>
-                <offset>(0,0.08)</offset>
+                <offset>(0,0)</offset>
               </west>
             </offsets>
           </li>

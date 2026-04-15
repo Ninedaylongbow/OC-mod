@@ -2,8 +2,8 @@
 <Defs>
 	<ThingDef ParentName="ApparelMakeableBase">
 		<defName>Pigeon_Rabbit_ApparelA</defName>
-		<label>Rabbit</label>
-    <description>。</description>
+		<label>마법사 의상 </label>
+    <description>예쁘고 귀여워!</description>
     <graphicData>
 			<texPath>Things/Apparel/Rabbit/RabbitA</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -69,8 +69,8 @@
 	</ThingDef>
 	<ThingDef ParentName="ApparelMakeableBase">
 		<defName>Pigeon_Rabbit_ApparelB</defName>
-		<label>Rabbit</label>
-    <description>。</description>
+		<label>토끼토끼</label>
+    <description>평상복이야!</description>
     <graphicData>
 			<texPath>Things/Apparel/Rabbit/RabbitB</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -136,8 +136,8 @@
 	</ThingDef>
 	<ThingDef ParentName="ApparelMakeableBase">
 		<defName>Pigeon_Rabbit_Hair</defName>
-		<label>Rabbit Hair</label>
-    <description>。</description>
+		<label>마법사 모자</label>
+    <description>이런 모자가 어울리는 사람은\n\n단 한명이야!</description>
     <graphicData>
 			<texPath>Things/Apparel/Rabbit/Hat/Rabbit_hat</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -164,20 +164,6 @@
         <li>None</li>
       </renderSkipFlags>
 			<wornGraphicPath>Things/Apparel/Rabbit/Hat/Rabbit_hat</wornGraphicPath>
-      <drawData>
-        <dataNorth>
-          <offset>(0,0,0.042)</offset>
-        </dataNorth>
-        <dataSouth>
-          <offset>(0,0,0.042)</offset>
-        </dataSouth>
-        <dataEast>
-          <offset>(0,0,0.042)</offset>
-        </dataEast>
-        <dataWest>
-          <offset>(0,0,0.042)</offset>
-        </dataWest>
-      </drawData>
       <layers>
         <li>Overhead</li>
       </layers>

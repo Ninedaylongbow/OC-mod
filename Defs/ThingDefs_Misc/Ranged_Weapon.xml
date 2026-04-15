@@ -2,8 +2,8 @@
 <Defs>
   <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>PigeonOC_RabbitWeapon</defName>
-    <label>RabbitWeapon</label>
-    <description>。</description>
+    <label>마법봉</label>
+    <description>사랑의 마법!</description>
     <graphicData>
       <texPath>Things/Weapon/RabbitWeapon</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -30,7 +30,7 @@
         <defaultProjectile>PigeonOCRabbitBullet</defaultProjectile>
         <warmupTime>1.2</warmupTime>
         <range>25</range>
-        <soundCast>Shot_shotgun</soundCast>
+        <soundCast>PigeonOC_RabbitWeapon_Shot</soundCast>
         <soundCastTail>GunTail_Light</soundCastTail>
         <muzzleFlashScale>14</muzzleFlashScale>
         <burstShotCount>3</burstShotCount>
@@ -72,9 +72,9 @@
   </ThingDef>
   <ThingDef ParentName="BaseBullet">
     <defName>PigeonOCRabbitBullet</defName>
-    <label>子弹</label>
+    <label>하트!</label>
     <graphicData>
-      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <texPath>Things/Weapon/RabbitWeaponBullet</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <projectile>
@@ -88,8 +88,8 @@
 
   <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>PigeonOC_FallenAngelWeapon</defName>
-    <label>FallenAngelWeapon</label>
-    <description>。</description>
+    <label> 스티그마</label>
+    <description>주인의 영혼을 투영하듯, 창은 이미 돌이킬 수 없는 타락에 물들어 있습니다. 그러나 여전히 날카롭게 빛나는 날 끝에는 차마 버리지 못한 신성함이 가련하게 맺혀 있습니다. 성(聖)과 마(魔)가 공존하는 이 모순적인 힘은 오직 제 몸에 새겨진 낙인의 무게를 온전히 감당할 수 있는 자만 다룰 수 있을 것입니다.</description>
     <graphicData>
       <texPath>Things/Weapon/FallenAngelWeapon</texPath>
       <graphicClass>Graphic_Single</graphicClass>

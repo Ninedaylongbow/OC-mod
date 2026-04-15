@@ -2,8 +2,8 @@
 <Defs>
 	<ThingDef ParentName="ApparelMakeableBase">
 		<defName>Pigeon_Succubus_Apparel</defName>
-		<label>Succubus</label>
-    <description>。</description>
+		<label>레티시아의 의류</label>
+    <description>그녀의 드레스입니다!</description>
     <graphicData>
 			<texPath>Things/Apparel/Succubus/Succubus</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -69,8 +69,8 @@
 	</ThingDef>
 	<ThingDef ParentName="ApparelMakeableBase">
 		<defName>Pigeon_Succubus_Hair</defName>
-		<label>Succubus Hair</label>
-    <description>。</description>
+		<label>레티시아의 모자</label>
+    <description>그녀의 모자입니다!</description>
     <graphicData>
 			<texPath>Things/Apparel/Succubus/Hat/Succubus_hat</texPath>
       <graphicClass>Graphic_Single</graphicClass>

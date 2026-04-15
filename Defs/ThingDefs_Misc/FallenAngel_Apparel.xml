@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 	<ThingDef ParentName="ApparelMakeableBase">
-		<defName>Pigeon_FallenAngel_ApparelA</defName>
-		<label>FallenAngel</label>
-    <description>。</description>
+		<defName>Pigeon_FallenAngel_Apparel</defName>
+		<label>소라의 평상복</label>
+    <description>평범하지만 깔끔한 하얀색 후드티와 청바지입니다. 어느 때나 입기 좋으며, 부드러운 소재로 만들어 활동하기에도 편합니다. 후드티의 뒷면에는 날개를 편하게 밖으로 빼낼 수 있도록 구멍이 뚫려 있습니다.</description>
     <graphicData>
 			<texPath>Things/Apparel/FallenAngel/FallenAngel</texPath>
       <graphicClass>Graphic_Single</graphicClass>
