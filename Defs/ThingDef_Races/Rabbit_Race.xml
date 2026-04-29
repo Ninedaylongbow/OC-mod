@@ -456,6 +456,7 @@
       <makesFootprints>true</makesFootprints>
       <lifeExpectancy>120</lifeExpectancy>
       <leatherDef>Leather_Human</leatherDef>
+      <nameGenerator>Pigeon_RabbitOC_Race_NameMaker</nameGenerator>
       <nameCategory>HumanStandard</nameCategory>
       <body>Human</body>
       <baseBodySize>1</baseBodySize>

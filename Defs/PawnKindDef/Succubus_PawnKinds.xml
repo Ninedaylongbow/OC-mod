@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
+
   <PawnKindDef>
     <race>Pigeon_SuccubusOC_Race</race>
     <combatPower>40</combatPower>
@@ -17,7 +18,7 @@
 			</li>
 		</backstoryFiltersOverride>
     <apparelTags>
-      <li>IndustrialBasic</li>
+      <li>Pigeon_Succubus</li>
     </apparelTags>
     <apparelRequired>
       <li>Pigeon_Succubus_Apparel</li>
@@ -25,7 +26,6 @@
     </apparelRequired>
     <minGenerationAge>18</minGenerationAge>
     <maxGenerationAge>35</maxGenerationAge>
-    <nameMaker>Pigeon_SuccubusOC_Race_NameMaker</nameMaker>
     <apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
     <apparelMoney>
       <min>800000</min>
@@ -40,9 +40,10 @@
     <defName>Pigeon_SuccubusOC_Race_NameMaker</defName>
     <rulePack>
       <rulesStrings>
-        <li>r_name->[Pigeon_SuccubusOC_Race_FirstName]</li>
-        <li>Pigeon_SuccubusOC_Race_nickName->레티시아</li>
-        <li>Pigeon_SuccubusOC_Race_FirstName->레티시아</li>
+        <li>r_name(p=2)->[Pigeon_SuccubusOC_FirstName][Pigeon_SuccubusOC_LastName]</li>
+        <li>Pigeon_SuccubusOC_nickName->레티시아</li>
+        <li>Pigeon_SuccubusOC_FirstName->레티</li>
+				<li>Pigeon_SuccubusOC_LastName->시아</li>
       </rulesStrings>
     </rulePack>
   </RulePackDef>
@@ -64,7 +65,7 @@
 			</li>
 		</backstoryFiltersOverride>
     <apparelTags>
-      <li>IndustrialBasic</li>
+      <li>Pigeon_Rabbit</li>
     </apparelTags>
     <apparelRequired>
       <li>Pigeon_Rabbit_ApparelA</li>
@@ -75,7 +76,6 @@
     </weaponTags>
     <minGenerationAge>18</minGenerationAge>
     <maxGenerationAge>35</maxGenerationAge>
-    <nameMaker>Pigeon_RabbitOC_Race_NameMaker</nameMaker>
     <apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
     <apparelMoney>
       <min>800000</min>
@@ -91,9 +91,10 @@
     <defName>Pigeon_RabbitOC_Race_NameMaker</defName>
     <rulePack>
       <rulesStrings>
-        <li>r_name->[Pigeon_RabbitOC_Race_FirstName]</li>
-        <li>Pigeon_RabbitOC_Race_nickName->카네리아</li>
-        <li>Pigeon_RabbitOC_Race_FirstName->카네리아</li>
+        <li>r_name->[Pigeon_RabbitOC_Race_Race_FirstName][Pigeon_RabbitOC_Race_Race_LastName]</li>
+        <li>Pigeon_RabbitOC_Race_Race_nickName->카네리아</li>
+        <li>Pigeon_RabbitOC_Race_Race_FirstName->카네</li>
+				<li>Pigeon_RabbitOC_Race_Race_LastName->리아</li>
       </rulesStrings>
     </rulePack>
   </RulePackDef>
@@ -116,7 +117,7 @@
 			</li>
 		</backstoryFiltersOverride>
     <apparelTags>
-      <li>IndustrialBasic</li>
+      <li>Pigeon_FallenAngel</li>
     </apparelTags>
     <apparelRequired>
       <li>Pigeon_FallenAngel_Apparel</li>
@@ -126,7 +127,6 @@
     </weaponTags>
     <minGenerationAge>18</minGenerationAge>
     <maxGenerationAge>35</maxGenerationAge>
-    <nameMaker>Pigeon_FallenAngelOC_Race_NameMaker</nameMaker>
     <apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
     <apparelMoney>
       <min>800000</min>
@@ -142,10 +142,12 @@
     <defName>Pigeon_FallenAngelOC_Race_NameMaker</defName>
     <rulePack>
       <rulesStrings>
-        <li>r_name->[Pigeon_FallenAngelOC_Race_FirstName]</li>
+        <li>r_name->[Pigeon_FallenAngelOC_Race_FirstName][Pigeon_FallenAngelOC_Race_LastName]</li>
         <li>Pigeon_FallenAngelOC_Race_nickName->소라</li>
-        <li>Pigeon_FallenAngelOC_Race_FirstName->소라</li>
+        <li>Pigeon_FallenAngelOC_Race_FirstName->소</li>
+				<li>Pigeon_FallenAngelOC_Race_LastName->라</li>
       </rulesStrings>
     </rulePack>
   </RulePackDef>
+
 </Defs>
