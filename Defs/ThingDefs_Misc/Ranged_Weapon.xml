@@ -78,6 +78,83 @@
   </ThingDef>
 
   <ThingDef ParentName="BaseHumanMakeableGun">
+    <defName>PigeonOC_RabbitIceWeapon</defName>
+    <label>마법봉</label>
+    <description>사랑의 마법!</description>
+    <graphicData>
+      <texPath>Things/Weapon/RabbitIceWeapon</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_SMG</soundInteract>
+    <techLevel>Spacer</techLevel>
+    <weaponTags>
+      <li>PigeonOC_RabbitWeapon</li>
+    </weaponTags>
+    <statBases>
+      <WorkToMake>680</WorkToMake>
+      <Mass>3.6</Mass>
+      <AccuracyTouch>0.90</AccuracyTouch>
+      <AccuracyShort>0.90</AccuracyShort>
+      <AccuracyMedium>0.80</AccuracyMedium>
+      <AccuracyLong>0.70</AccuracyLong>
+      <RangedWeapon_Cooldown>0.5</RangedWeapon_Cooldown>
+    </statBases>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>PigeonOCRabbitBullet</defaultProjectile>
+        <warmupTime>0.5</warmupTime>
+        <range>25</range>
+        <soundCast>PigeonOC_RabbitWeapon_Shot</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>14</muzzleFlashScale>
+        <burstShotCount>1</burstShotCount>
+        <ticksBetweenBurstShots>9</ticksBetweenBurstShots>
+      </li>
+    </verbs>
+    <recipeMaker>
+      <skillRequirements>
+        <Crafting>7</Crafting>
+      </skillRequirements>
+      <recipeUsers Inherit="False">
+        <li>TableMachining</li>
+      </recipeUsers>
+    </recipeMaker>
+    <costList>
+      <Steel>75</Steel>
+      <Chemfuel>15</Chemfuel>
+      <ComponentIndustrial>5</ComponentIndustrial>
+    </costList>
+    <tools>
+      <li>
+        <label>head</label>
+        <labelUsedInLogging>false</labelUsedInLogging>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>12</power>
+        <cooldownTime>1.6</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+  <ThingDef ParentName="BaseBullet">
+    <defName>PigeonOCRabbitIceWeaponBullet</defName>
+    <label>하트!</label>
+    <graphicData>
+      <texPath>Things/Weapon/RabbitIceWeaponBullet</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Beam</damageDef>
+      <damageAmountBase>30</damageAmountBase>
+      <armorPenetrationBase>0</armorPenetrationBase>
+      <stoppingPower>6.0</stoppingPower>
+      <speed>40</speed>
+    </projectile>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>PigeonOC_FallenAngelWeapon</defName>
     <label> 스티그마</label>
     <description>주인의 영혼을 투영하듯, 이 무한한 창은 이미 돌이킬 수 없는 타락에 물들어 있습니다. 그러나 여전히 날카롭게 빛나는 날 끝에는 차마 버리지 못한 신성함이 가련하게 맺혀 있습니다. 성(聖)과 마(魔)가 공존하는 이 모순적인 힘은 오직 제 몸에 새겨진 낙인의 무게를 온전히 감당할 수 있는 자만 다룰 수 있을 것입니다.</description>
