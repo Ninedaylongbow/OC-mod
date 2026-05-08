@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: 레티시아 -->
+  <Pigeon_SuccubusOC_Race.label>莱蒂西亚</Pigeon_SuccubusOC_Race.label>
+  <!-- EN: . -->
+  <Pigeon_SuccubusOC_Race.description>。</Pigeon_SuccubusOC_Race.description>
+  <!-- EN: left fist -->
+  <Pigeon_SuccubusOC_Race.tools.left_fist.label>左拳</Pigeon_SuccubusOC_Race.tools.left_fist.label>
+  <!-- EN: right fist -->
+  <Pigeon_SuccubusOC_Race.tools.right_fist.label>右拳</Pigeon_SuccubusOC_Race.tools.right_fist.label>
+  <!-- EN: teeth -->
+  <Pigeon_SuccubusOC_Race.tools.teeth.label>牙齿</Pigeon_SuccubusOC_Race.tools.teeth.label>
+  <!-- EN: head -->
+  <Pigeon_SuccubusOC_Race.tools.head.label>头</Pigeon_SuccubusOC_Race.tools.head.label>
+  
+</LanguageData>

@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:  스티그마 -->
+  <PigeonOC_FallenAngelWeapon.label>stigma</PigeonOC_FallenAngelWeapon.label>
+  <!-- EN: 주인의 영혼을 투영하듯, 이 무한한 창은 이미 돌이킬 수 없는 타락에 물들어 있습니다. 그러나 여전히 날카롭게 빛나는 날 끝에는 차마 버리지 못한 신성함이 가련하게 맺혀 있습니다. 성(聖)과 마(魔)가 공존하는 이 모순적인 힘은 오직 제 몸에 새겨진 낙인의 무게를 온전히 감당할 수 있는 자만 다룰 수 있을 것입니다. -->
+  <PigeonOC_FallenAngelWeapon.description>It seems as if the soul of the master has been projected out, and this endless window has been tainted with irreversible depravity. However, at the end of the still sharp and glowing window panes, there is a trace of sacredness that cannot be discarded. This contradictory power of coexistence between the sacred and the demonic can only be mastered by those who can fully bear the weight of the branding imprinted on me.</PigeonOC_FallenAngelWeapon.description>
+  <!-- EN: shaft -->
+  <PigeonOC_FallenAngelWeapon.tools.shaft.label>shaft</PigeonOC_FallenAngelWeapon.tools.shaft.label>
+  <!-- EN: point -->
+  <PigeonOC_FallenAngelWeapon.tools.point.label>point</PigeonOC_FallenAngelWeapon.tools.point.label>
+  <!-- EN:  스티그마 -->
+  <PigeonOC_FallenAngelWeapon.verbs.Verb_Shoot.label>stigma</PigeonOC_FallenAngelWeapon.verbs.Verb_Shoot.label>
+  
+  <!-- EN: 마법봉 -->
+  <PigeonOC_RabbitIceWeapon.label>wand</PigeonOC_RabbitIceWeapon.label>
+  <!-- EN: 사랑의 마법! -->
+  <PigeonOC_RabbitIceWeapon.description>Magic of Love!</PigeonOC_RabbitIceWeapon.description>
+  <!-- EN: head -->
+  <PigeonOC_RabbitIceWeapon.tools.head.label>头</PigeonOC_RabbitIceWeapon.tools.head.label>
+  <!-- EN: 마법봉 -->
+  <PigeonOC_RabbitIceWeapon.verbs.Verb_Shoot.label>wand</PigeonOC_RabbitIceWeapon.verbs.Verb_Shoot.label>
+  
+  <!-- EN: 마법봉 -->
+  <PigeonOC_RabbitWeapon.label>wand</PigeonOC_RabbitWeapon.label>
+  <!-- EN: 사랑의 마법! -->
+  <PigeonOC_RabbitWeapon.description>Magic of Love!</PigeonOC_RabbitWeapon.description>
+  <!-- EN: head -->
+  <PigeonOC_RabbitWeapon.tools.head.label>头</PigeonOC_RabbitWeapon.tools.head.label>
+  <!-- EN: 마법봉 -->
+  <PigeonOC_RabbitWeapon.verbs.Verb_Shoot.label>wand</PigeonOC_RabbitWeapon.verbs.Verb_Shoot.label>
+  
+  <!-- EN: 子弹 -->
+  <PigeonOCFallenAngelBullet.label>bullet</PigeonOCFallenAngelBullet.label>
+  
+  <!-- EN: 하트! -->
+  <PigeonOCRabbitBullet.label>Love</PigeonOCRabbitBullet.label>
+  
+  <!-- EN: 하트! -->
+  <PigeonOCRabbitIceWeaponBullet.label>Ice</PigeonOCRabbitIceWeaponBullet.label>
+  
+</LanguageData>

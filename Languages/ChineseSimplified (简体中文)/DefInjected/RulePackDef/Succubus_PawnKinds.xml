@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- EN:
+    <li>r_name->[Pigeon_FallenAngelOC_Race_FirstName][Pigeon_FallenAngelOC_Race_LastName]</li>
+    <li>Pigeon_FallenAngelOC_Race_nickName->索拉</li>
+    <li>Pigeon_FallenAngelOC_Race_FirstName->索</li>
+    <li>Pigeon_FallenAngelOC_Race_LastName->拉</li>
+  -->
+  <Pigeon_FallenAngelOC_Race_NameMaker.rulePack.rulesStrings>
+    <li>r_name->[Pigeon_FallenAngelOC_Race_FirstName][Pigeon_FallenAngelOC_Race_LastName]</li>
+    <li>Pigeon_FallenAngelOC_Race_nickName->索拉</li>
+    <li>Pigeon_FallenAngelOC_Race_FirstName->索</li>
+    <li>Pigeon_FallenAngelOC_Race_LastName->拉</li>
+  </Pigeon_FallenAngelOC_Race_NameMaker.rulePack.rulesStrings>
+
+  <!-- EN:
+    <li>r_name->[Pigeon_RabbitOC_Race_Race_FirstName][Pigeon_RabbitOC_Race_Race_LastName]</li>
+    <li>Pigeon_RabbitOC_Race_Race_nickName->金丝雀</li>
+    <li>Pigeon_RabbitOC_Race_Race_FirstName->金</li>
+    <li>Pigeon_RabbitOC_Race_Race_LastName->丝雀</li>
+  -->
+  <Pigeon_RabbitOC_Race_NameMaker.rulePack.rulesStrings>
+    <li>r_name->[Pigeon_RabbitOC_Race_Race_FirstName][Pigeon_RabbitOC_Race_Race_LastName]</li>
+    <li>Pigeon_RabbitOC_Race_Race_nickName->金丝雀</li>
+    <li>Pigeon_RabbitOC_Race_Race_FirstName->金</li>
+    <li>Pigeon_RabbitOC_Race_Race_LastName->丝雀</li>
+  </Pigeon_RabbitOC_Race_NameMaker.rulePack.rulesStrings>
+
+  <!-- EN:
+    <li>r_name(p=2)->[Pigeon_SuccubusOC_FirstName][Pigeon_SuccubusOC_LastName]</li>
+    <li>Pigeon_SuccubusOC_nickName->莱蒂西亚</li>
+    <li>Pigeon_SuccubusOC_FirstName->莱蒂</li>
+    <li>Pigeon_SuccubusOC_LastName->西亚</li>
+  -->
+  <Pigeon_SuccubusOC_Race_NameMaker.rulePack.rulesStrings>
+    <li>r_name(p=2)->[Pigeon_SuccubusOC_FirstName][Pigeon_SuccubusOC_LastName]</li>
+    <li>Pigeon_SuccubusOC_nickName->莱蒂西亚</li>
+    <li>Pigeon_SuccubusOC_FirstName->莱蒂</li>
+    <li>Pigeon_SuccubusOC_LastName->西亚</li>
+  </Pigeon_SuccubusOC_Race_NameMaker.rulePack.rulesStrings>
+
+</LanguageData>

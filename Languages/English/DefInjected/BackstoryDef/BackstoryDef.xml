@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: 서큐버스! -->
+  <Pigeon_OC_BackstoryAdult_01.description>Succubus!</Pigeon_OC_BackstoryAdult_01.description>
+  <!-- EN: 서큐버스 -->
+  <Pigeon_OC_BackstoryAdult_01.title>Succubus</Pigeon_OC_BackstoryAdult_01.title>
+  <!-- EN: 서큐버스 -->
+  <Pigeon_OC_BackstoryAdult_01.titleShort>Succubus</Pigeon_OC_BackstoryAdult_01.titleShort>
+  
+  <!-- EN: 귀여운 마법사! -->
+  <Pigeon_OC_BackstoryAdult_02.description>Cute magician!</Pigeon_OC_BackstoryAdult_02.description>
+  <!-- EN: 토끼 마법사 -->
+  <Pigeon_OC_BackstoryAdult_02.title>Cute magician</Pigeon_OC_BackstoryAdult_02.title>
+  <!-- EN: 토끼 마법사 -->
+  <Pigeon_OC_BackstoryAdult_02.titleShort>Cute magician</Pigeon_OC_BackstoryAdult_02.titleShort>
+  
+  <!-- EN: 그는 모종의 이유로 인해 타락하였습니다. -->
+  <Pigeon_OC_BackstoryAdult_03.description>He fell into depravity for some reason.</Pigeon_OC_BackstoryAdult_03.description>
+  <!-- EN: 타락천사 -->
+  <Pigeon_OC_BackstoryAdult_03.title>Fallen Angel</Pigeon_OC_BackstoryAdult_03.title>
+  <!-- EN: 타락천사 -->
+  <Pigeon_OC_BackstoryAdult_03.titleShort>Fallen Angel</Pigeon_OC_BackstoryAdult_03.titleShort>
+  
+  <!-- EN: 어린 서큐버스! -->
+  <Pigeon_OC_BackstoryChild_01.description>young succubus！</Pigeon_OC_BackstoryChild_01.description>
+  <!-- EN: 어린 서큐버스 -->
+  <Pigeon_OC_BackstoryChild_01.title>young succubus</Pigeon_OC_BackstoryChild_01.title>
+  <!-- EN: 어린 서큐버스 -->
+  <Pigeon_OC_BackstoryChild_01.titleShort>young succubus</Pigeon_OC_BackstoryChild_01.titleShort>
+  
+  <!-- EN: 짱 귀여운 어린 토끼였습니다! -->
+  <Pigeon_OC_BackstoryChild_02.description>Super cute little rabbit!</Pigeon_OC_BackstoryChild_02.description>
+  <!-- EN: 어린토끼 -->
+  <Pigeon_OC_BackstoryChild_02.title>little rabbit</Pigeon_OC_BackstoryChild_02.title>
+  <!-- EN: 어린토끼 -->
+  <Pigeon_OC_BackstoryChild_02.titleShort>little rabbit</Pigeon_OC_BackstoryChild_02.titleShort>
+  
+  <!-- EN: 소라는 순수한 천사였습니다. -->
+  <Pigeon_OC_BackstoryChild_03.description>Sola is a pure angel.</Pigeon_OC_BackstoryChild_03.description>
+  <!-- EN: 천사 -->
+  <Pigeon_OC_BackstoryChild_03.title>angel</Pigeon_OC_BackstoryChild_03.title>
+  <!-- EN: 천사 -->
+  <Pigeon_OC_BackstoryChild_03.titleShort>angel</Pigeon_OC_BackstoryChild_03.titleShort>
+  
+</LanguageData>

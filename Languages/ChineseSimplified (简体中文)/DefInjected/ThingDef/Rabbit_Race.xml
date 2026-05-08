@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: 카네리아 -->
+  <Pigeon_RabbitOC_Race.label>金丝雀</Pigeon_RabbitOC_Race.label>
+  <!-- EN: . -->
+  <Pigeon_RabbitOC_Race.description>。</Pigeon_RabbitOC_Race.description>
+  <!-- EN: left fist -->
+  <Pigeon_RabbitOC_Race.tools.left_fist.label>左拳</Pigeon_RabbitOC_Race.tools.left_fist.label>
+  <!-- EN: right fist -->
+  <Pigeon_RabbitOC_Race.tools.right_fist.label>右拳</Pigeon_RabbitOC_Race.tools.right_fist.label>
+  <!-- EN: teeth -->
+  <Pigeon_RabbitOC_Race.tools.teeth.label>牙齿</Pigeon_RabbitOC_Race.tools.teeth.label>
+  <!-- EN: head -->
+  <Pigeon_RabbitOC_Race.tools.head.label>头</Pigeon_RabbitOC_Race.tools.head.label>
+  
+</LanguageData>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: 소라 -->
+  <Pigeon_FallenAngelOC_Race.label>Sola</Pigeon_FallenAngelOC_Race.label>
+  <!-- EN: . -->
+  <Pigeon_FallenAngelOC_Race.description>。</Pigeon_FallenAngelOC_Race.description>
+  <!-- EN: left fist -->
+  <Pigeon_FallenAngelOC_Race.tools.left_fist.label>left fist</Pigeon_FallenAngelOC_Race.tools.left_fist.label>
+  <!-- EN: right fist -->
+  <Pigeon_FallenAngelOC_Race.tools.right_fist.label>right fist</Pigeon_FallenAngelOC_Race.tools.right_fist.label>
+  <!-- EN: teeth -->
+  <Pigeon_FallenAngelOC_Race.tools.teeth.label>teeth</Pigeon_FallenAngelOC_Race.tools.teeth.label>
+  <!-- EN: head -->
+  <Pigeon_FallenAngelOC_Race.tools.head.label>head</Pigeon_FallenAngelOC_Race.tools.head.label>
+  
+</LanguageData>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: 카네리아 -->
+  <Pigeon_RabbitOC_Race.label>canary</Pigeon_RabbitOC_Race.label>
+  <!-- EN: . -->
+  <Pigeon_RabbitOC_Race.description>。</Pigeon_RabbitOC_Race.description>
+  <!-- EN: left fist -->
+  <Pigeon_RabbitOC_Race.tools.left_fist.label>left fist</Pigeon_RabbitOC_Race.tools.left_fist.label>
+  <!-- EN: right fist -->
+  <Pigeon_RabbitOC_Race.tools.right_fist.label>right fist</Pigeon_RabbitOC_Race.tools.right_fist.label>
+  <!-- EN: teeth -->
+  <Pigeon_RabbitOC_Race.tools.teeth.label>teeth</Pigeon_RabbitOC_Race.tools.teeth.label>
+  <!-- EN: head -->
+  <Pigeon_RabbitOC_Race.tools.head.label>head</Pigeon_RabbitOC_Race.tools.head.label>
+  
+</LanguageData>

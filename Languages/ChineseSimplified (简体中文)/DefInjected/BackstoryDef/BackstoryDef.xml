@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: 서큐버스! -->
+  <Pigeon_OC_BackstoryAdult_01.description>魅魔！</Pigeon_OC_BackstoryAdult_01.description>
+  <!-- EN: 서큐버스 -->
+  <Pigeon_OC_BackstoryAdult_01.title>魅魔</Pigeon_OC_BackstoryAdult_01.title>
+  <!-- EN: 서큐버스 -->
+  <Pigeon_OC_BackstoryAdult_01.titleShort>魅魔</Pigeon_OC_BackstoryAdult_01.titleShort>
+  
+  <!-- EN: 귀여운 마법사! -->
+  <Pigeon_OC_BackstoryAdult_02.description>可爱的魔法师！</Pigeon_OC_BackstoryAdult_02.description>
+  <!-- EN: 토끼 마법사 -->
+  <Pigeon_OC_BackstoryAdult_02.title>可爱的魔法师</Pigeon_OC_BackstoryAdult_02.title>
+  <!-- EN: 토끼 마법사 -->
+  <Pigeon_OC_BackstoryAdult_02.titleShort>可爱的魔法师</Pigeon_OC_BackstoryAdult_02.titleShort>
+  
+  <!-- EN: 그는 모종의 이유로 인해 타락하였습니다. -->
+  <Pigeon_OC_BackstoryAdult_03.description>他因某种原因堕落了。</Pigeon_OC_BackstoryAdult_03.description>
+  <!-- EN: 타락천사 -->
+  <Pigeon_OC_BackstoryAdult_03.title>堕落天使</Pigeon_OC_BackstoryAdult_03.title>
+  <!-- EN: 타락천사 -->
+  <Pigeon_OC_BackstoryAdult_03.titleShort>堕落天使</Pigeon_OC_BackstoryAdult_03.titleShort>
+  
+  <!-- EN: 어린 서큐버스! -->
+  <Pigeon_OC_BackstoryChild_01.description>年幼的魅魔</Pigeon_OC_BackstoryChild_01.description>
+  <!-- EN: 어린 서큐버스 -->
+  <Pigeon_OC_BackstoryChild_01.title>年幼的魅魔</Pigeon_OC_BackstoryChild_01.title>
+  <!-- EN: 어린 서큐버스 -->
+  <Pigeon_OC_BackstoryChild_01.titleShort>年幼的魅魔</Pigeon_OC_BackstoryChild_01.titleShort>
+  
+  <!-- EN: 짱 귀여운 어린 토끼였습니다! -->
+  <Pigeon_OC_BackstoryChild_02.description>超级可爱的小兔子！</Pigeon_OC_BackstoryChild_02.description>
+  <!-- EN: 어린토끼 -->
+  <Pigeon_OC_BackstoryChild_02.title>小兔子</Pigeon_OC_BackstoryChild_02.title>
+  <!-- EN: 어린토끼 -->
+  <Pigeon_OC_BackstoryChild_02.titleShort>小兔子</Pigeon_OC_BackstoryChild_02.titleShort>
+  
+  <!-- EN: 소라는 순수한 천사였습니다. -->
+  <Pigeon_OC_BackstoryChild_03.description>索拉是位纯洁的天使。</Pigeon_OC_BackstoryChild_03.description>
+  <!-- EN: 천사 -->
+  <Pigeon_OC_BackstoryChild_03.title>天使</Pigeon_OC_BackstoryChild_03.title>
+  <!-- EN: 천사 -->
+  <Pigeon_OC_BackstoryChild_03.titleShort>天使</Pigeon_OC_BackstoryChild_03.titleShort>
+  
+</LanguageData>

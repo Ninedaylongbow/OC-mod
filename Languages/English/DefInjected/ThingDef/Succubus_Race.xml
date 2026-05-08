@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: 레티시아 -->
+  <Pigeon_SuccubusOC_Race.label>Leticia</Pigeon_SuccubusOC_Race.label>
+  <!-- EN: . -->
+  <Pigeon_SuccubusOC_Race.description>。</Pigeon_SuccubusOC_Race.description>
+  <!-- EN: left fist -->
+  <Pigeon_SuccubusOC_Race.tools.left_fist.label>left fist</Pigeon_SuccubusOC_Race.tools.left_fist.label>
+  <!-- EN: right fist -->
+  <Pigeon_SuccubusOC_Race.tools.right_fist.label>right fist</Pigeon_SuccubusOC_Race.tools.right_fist.label>
+  <!-- EN: teeth -->
+  <Pigeon_SuccubusOC_Race.tools.teeth.label>teeth</Pigeon_SuccubusOC_Race.tools.teeth.label>
+  <!-- EN: head -->
+  <Pigeon_SuccubusOC_Race.tools.head.label>head</Pigeon_SuccubusOC_Race.tools.head.label>
+  
+</LanguageData>

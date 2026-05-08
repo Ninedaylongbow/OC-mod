@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: 독특한 캐릭터 (소라) -->
+  <Pigeon_OC_Scenario_FallenAngel.label>独特的角色（索拉）</Pigeon_OC_Scenario_FallenAngel.label>
+  <!-- EN: 모험을 시작해 봐. -->
+  <Pigeon_OC_Scenario_FallenAngel.description>开始冒险吧。</Pigeon_OC_Scenario_FallenAngel.description>
+  <!-- EN: 모험을 시작해 봐. -->
+  <Pigeon_OC_Scenario_FallenAngel.scenario.description>开始冒险吧。</Pigeon_OC_Scenario_FallenAngel.scenario.description>
+  <!-- EN: 독특한 캐릭터 (소라) -->
+  <Pigeon_OC_Scenario_FallenAngel.scenario.name>独特的角色（索拉）</Pigeon_OC_Scenario_FallenAngel.scenario.name>
+  <!-- EN: 모험을 시작해 봐. -->
+  <Pigeon_OC_Scenario_FallenAngel.scenario.parts.GameStartDialog.text>开始冒险吧。</Pigeon_OC_Scenario_FallenAngel.scenario.parts.GameStartDialog.text>
+  <!-- EN: 모험을 시작해 봐. -->
+  <Pigeon_OC_Scenario_FallenAngel.scenario.summary>开始冒险吧。</Pigeon_OC_Scenario_FallenAngel.scenario.summary>
+  
+  <!-- EN: 독특한 캐릭터 (카네리아) -->
+  <Pigeon_OC_Scenario_Rabbit.label>独特的角色（金丝雀）</Pigeon_OC_Scenario_Rabbit.label>
+  <!-- EN: 모험을 시작해 봐. -->
+  <Pigeon_OC_Scenario_Rabbit.description>开始冒险吧。</Pigeon_OC_Scenario_Rabbit.description>
+  <!-- EN: 모험을 시작해 봐. -->
+  <Pigeon_OC_Scenario_Rabbit.scenario.description>开始冒险吧。</Pigeon_OC_Scenario_Rabbit.scenario.description>
+  <!-- EN: 독특한 캐릭터 (카네리아) -->
+  <Pigeon_OC_Scenario_Rabbit.scenario.name>独特的角色（金丝雀）</Pigeon_OC_Scenario_Rabbit.scenario.name>
+  <!-- EN: 모험을 시작해 봐. -->
+  <Pigeon_OC_Scenario_Rabbit.scenario.parts.GameStartDialog.text>开始冒险吧。</Pigeon_OC_Scenario_Rabbit.scenario.parts.GameStartDialog.text>
+  <!-- EN: 모험을 시작해 봐. -->
+  <Pigeon_OC_Scenario_Rabbit.scenario.summary>开始冒险吧。</Pigeon_OC_Scenario_Rabbit.scenario.summary>
+  
+  <!-- EN: 독특한 캐릭터 (레티시아) -->
+  <Pigeon_OC_Scenario_Succubus.label>独特的角色（莱蒂西亚）</Pigeon_OC_Scenario_Succubus.label>
+  <!-- EN: 모험을 시작해 봐. -->
+  <Pigeon_OC_Scenario_Succubus.description>开始冒险吧。</Pigeon_OC_Scenario_Succubus.description>
+  <!-- EN: 모험을 시작해 봐. -->
+  <Pigeon_OC_Scenario_Succubus.scenario.description>开始冒险吧。</Pigeon_OC_Scenario_Succubus.scenario.description>
+  <!-- EN: 독특한 캐릭터 (레티시아) -->
+  <Pigeon_OC_Scenario_Succubus.scenario.name>独特的角色（莱蒂西亚）</Pigeon_OC_Scenario_Succubus.scenario.name>
+  <!-- EN: 모험을 시작해 봐. -->
+  <Pigeon_OC_Scenario_Succubus.scenario.parts.GameStartDialog.text>开始冒险吧。</Pigeon_OC_Scenario_Succubus.scenario.parts.GameStartDialog.text>
+  <!-- EN: 모험을 시작해 봐. -->
+  <Pigeon_OC_Scenario_Succubus.scenario.summary>开始冒险吧。</Pigeon_OC_Scenario_Succubus.scenario.summary>
+  
+</LanguageData>

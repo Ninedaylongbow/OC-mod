@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: 마법사 의상  -->
+  <Pigeon_Rabbit_ApparelA.label>魔法师服装</Pigeon_Rabbit_ApparelA.label>
+  <!-- EN: 예쁘고 귀여워! -->
+  <Pigeon_Rabbit_ApparelA.description>漂亮又可爱！</Pigeon_Rabbit_ApparelA.description>
+  
+  <!-- EN: 토끼토끼 -->
+  <Pigeon_Rabbit_ApparelB.label>兔子兔子</Pigeon_Rabbit_ApparelB.label>
+  <!-- EN: 평상복이야! -->
+  <Pigeon_Rabbit_ApparelB.description>便服啊</Pigeon_Rabbit_ApparelB.description>
+  
+  <!-- EN: 마법사 모자 -->
+  <Pigeon_Rabbit_Hat.label>魔法师帽</Pigeon_Rabbit_Hat.label>
+  <!-- EN: 이런 모자가 어울리는 사람은\n\n단 한명이야! -->
+  <Pigeon_Rabbit_Hat.description>这种帽子只适合一个人戴！</Pigeon_Rabbit_Hat.description>
+  
+</LanguageData>
