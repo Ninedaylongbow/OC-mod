@@ -103,7 +103,7 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>PigeonOCRabbitBullet</defaultProjectile>
+        <defaultProjectile>PigeonOCRabbitIceWeaponBullet</defaultProjectile>
         <warmupTime>0.5</warmupTime>
         <range>25</range>
         <soundCast>PigeonOC_RabbitWeapon_Shot</soundCast>
@@ -146,7 +146,7 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <projectile>
-      <damageDef>Beam</damageDef>
+      <damageDef>RangedStab</damageDef>
       <damageAmountBase>30</damageAmountBase>
       <armorPenetrationBase>0</armorPenetrationBase>
       <stoppingPower>6.0</stoppingPower>
