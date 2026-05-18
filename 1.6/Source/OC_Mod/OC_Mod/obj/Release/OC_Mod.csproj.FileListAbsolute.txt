@@ -1,0 +1,6 @@
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\OC-mod\1.6\Assemblies\OC_Mod.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\OC-mod\1.6\Assemblies\OC_Mod.pdb
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\OC-mod\Source\OC_Mod\OC_Mod\obj\Release\OC_Mod.csproj.AssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\OC-mod\Source\OC_Mod\OC_Mod\obj\Release\OC_Mod.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\OC-mod\Source\OC_Mod\OC_Mod\obj\Release\OC_Mod.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\OC-mod\Source\OC_Mod\OC_Mod\obj\Release\OC_Mod.pdb
