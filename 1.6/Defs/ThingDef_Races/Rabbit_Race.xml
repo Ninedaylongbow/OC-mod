@@ -62,16 +62,16 @@
           </colorChannels>
           <headOffsetDirectional>
             <north>
-              <offset>(0.0, -0.335)</offset>
+              <offset>(0.0, -0.17)</offset>
             </north>
             <south>
-              <offset>(0.0, -0.335)</offset>
+              <offset>(0.0, -0.17)</offset>
             </south>
             <east>
-              <offset>(-0.1, -0.335)</offset>
+              <offset>(-0.1, -0.17)</offset>
             </east>
             <west>
-              <offset>(0.1, -0.335)</offset>
+              <offset>(0.1, -0.17)</offset>
             </west>
           </headOffsetDirectional>
           <bodyAddons>
