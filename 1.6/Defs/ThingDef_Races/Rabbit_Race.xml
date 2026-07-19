@@ -74,6 +74,7 @@
               <offset>(0.1, -0.17)</offset>
             </west>
           </headOffsetDirectional>
+
           <bodyAddons>
             <li>
               <path>Things/Body/Rabbit/RabbitEar</path>
@@ -105,7 +106,7 @@
                   <offset>(0,0)</offset>
                 </north>
                 <south>
-                  <layerOffset>-0.326</layerOffset>
+                  <layerOffset>-0.33</layerOffset>
                   <offset>(0,0)</offset>
                 </south>
                 <east>
