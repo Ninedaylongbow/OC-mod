@@ -38,6 +38,20 @@
       <layers>
         <li>Middle</li>
       </layers>
+      <drawData>
+        <dataEast>
+          <offset>(0,0,0.195)</offset>
+        </dataEast>
+        <dataWest>
+          <offset>(0,0,0.195)</offset>
+        </dataWest>
+        <dataNorth>
+          <offset>(0,0,0.195)</offset>
+        </dataNorth>
+        <dataSouth>
+          <offset>(0,0,0.195)</offset>
+        </dataSouth>
+      </drawData>
       <canBeDesiredForIdeo>false</canBeDesiredForIdeo>
       <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
       <canBeGeneratedToSatisfyToxicEnvironmentResistance>false</canBeGeneratedToSatisfyToxicEnvironmentResistance>
