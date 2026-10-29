@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<!--==========유년기==========-->
+	<AlienRace.AlienBackstoryDef Name="Pigeon_OC_BaseBackstory" Abstract="True">
+		<disallowedTraitsChance>
+			<li>
+				<defName Degree="-1">Beauty</defName>
+			</li>
+			<li>
+				<defName Degree="-2">Beauty</defName>
+			</li>
+		</disallowedTraitsChance>
+		<forcedTraitsChance>
+			<li>
+				<defName Degree="1">Beauty</defName>
+			</li>
+			<li>
+				<defName Degree="2">Beauty</defName>
+			</li>
+			<li>
+				<defName>Tough</defName>
+			</li>
+		</forcedTraitsChance>
+	</AlienRace.AlienBackstoryDef>
+	<!--고아-->
+	<AlienRace.AlienBackstoryDef ParentName="Pigeon_OC_BaseBackstory">
+		<defName>Pigeon_OC_BackstoryChild_01</defName>
+		<title>어린 서큐버스</title>
+		<titleShort>어린 서큐버스</titleShort>
+		<baseDesc>어린 서큐버스!</baseDesc>
+		<slot>Childhood</slot>
+		<skillGains>
+			<Plants>5</Plants>
+			<Social>5</Social>
+		</skillGains>
+		<spawnCategories>
+			<li>Pigeon_SuccubusOC_BackStroy</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef ParentName="Pigeon_OC_BaseBackstory">
+		<defName>Pigeon_OC_BackstoryAdult_01</defName>
+		<title>서큐버스</title>
+		<titleShort>서큐버스</titleShort>
+		<baseDesc>서큐버스!</baseDesc>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Animals>7</Animals>
+			<Social>7</Social>
+			<Cooking>5</Cooking>
+		</skillGains>
+		<spawnCategories>
+			<li>Pigeon_SuccubusOC_BackStroy</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef ParentName="Pigeon_OC_BaseBackstory">
+		<defName>Pigeon_OC_BackstoryChild_02</defName>
+		<title>어린토끼</title>
+		<titleShort>어린토끼</titleShort>
+		<baseDesc>짱 귀여운 어린 토끼였습니다!</baseDesc>
+		<slot>Childhood</slot>
+		<skillGains>
+			<Artistic>5</Artistic>
+			<Social>5</Social>
+		</skillGains>
+		<spawnCategories>
+			<li>Pigeon_RabbitOC_BackStroy</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef ParentName="Pigeon_OC_BaseBackstory">
+		<defName>Pigeon_OC_BackstoryAdult_02</defName>
+		<title>토끼 마법사</title>
+		<titleShort>토끼 마법사</titleShort>
+		<baseDesc>귀여운 마법사!</baseDesc>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Shooting>7</Shooting>
+			<Medicine>5</Medicine>
+			<Cooking>7</Cooking>
+		</skillGains>
+		<spawnCategories>
+			<li>Pigeon_RabbitOC_BackStroy</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef ParentName="Pigeon_OC_BaseBackstory">
+		<defName>Pigeon_OC_BackstoryChild_03</defName>
+		<title>천사</title>
+		<titleShort>천사</titleShort>
+		<baseDesc>소라는 순수한 천사였습니다.</baseDesc>
+		<slot>Childhood</slot>
+		<skillGains>
+			<Shooting>5</Shooting>
+			<Artistic>5</Artistic>
+		</skillGains>
+		<spawnCategories>
+			<li>Pigeon_FallenAngelOC_BackStroy</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef ParentName="Pigeon_OC_BaseBackstory">
+		<defName>Pigeon_OC_BackstoryAdult_03</defName>
+		<title>타락천사</title>
+		<titleShort>타락천사</titleShort>
+		<baseDesc>그는 모종의 이유로 인해 타락하였습니다. </baseDesc>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Social>7</Social>
+			<Shooting>2</Shooting>
+			<Melee>7</Melee>
+		</skillGains>
+		<spawnCategories>
+			<li>Pigeon_FallenAngelOC_BackStroy</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+
+</Defs>

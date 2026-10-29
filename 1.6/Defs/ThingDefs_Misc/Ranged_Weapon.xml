@@ -183,7 +183,7 @@
         <defaultProjectile>PigeonOCFallenAngelBullet</defaultProjectile>
         <warmupTime>0.5</warmupTime>
         <range>23</range>
-        <soundCast>PigeonOC_FallenAngelWeapon_Shot</soundCast>
+        <soundCast>Interact_BeatFire</soundCast>
         <soundCastTail>GunTail_Light</soundCastTail>
         <muzzleFlashScale>14</muzzleFlashScale>
         <burstShotCount>1</burstShotCount>

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <SoundDef>
+    <defName>PigeonOC_RabbitWeapon_Shot</defName>
+    <context>MapOnly</context>
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/PigeonOC_RabbitWeapon_Shot</clipPath>
+          </li>
+        </grains>
+        <volumeRange>105~145</volumeRange>
+        <pitchRange>1.1~1.15</pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+</Defs>
